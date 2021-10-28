@@ -1,2 +1,2 @@
 # Rython_HW_for_review
-Hi, from Vadym. This is HW for review, Task3_6
+Hi, from Vadym QA. Task from 4 will be here.
