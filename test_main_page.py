@@ -1,13 +1,9 @@
-import time
-
 import pytest
-
 from .pages.login_page import LoginPage
 from .pages.main_page import MainPage
 from .pages.product_page import ProductPage
 from .pages.basket_page import BasketPage
 
-@pytest.mark.login_guest
 class TestLoginFromMainPage():
     def test_guest_can_go_to_login_page(self, browser):
         link = "https://yawn.node4.devplatform2.com/"
