@@ -8,3 +8,4 @@ class BasketPage(BasePage):
         assert text == "Your basket is empty. Continue shopping"
 
 
+

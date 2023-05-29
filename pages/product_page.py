@@ -15,4 +15,3 @@ class ProductPage(BasePage):
     def should_dissapear(self):
         assert self.is_disappeared(*ProductPageLocators.SUCCESS_MSG) , "WARNING! Not Dissapered!"
 
-
