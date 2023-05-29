@@ -1,7 +1,5 @@
 import time
-
 import pytest
-
 from .pages.login_page import LoginPage
 from .pages.main_page import MainPage
 from .pages.product_page import ProductPage
@@ -83,3 +81,4 @@ def test_guest_cant_see_product_in_basket_opened_from_main_page(browser):
     page.should_go_to_basket_page()
     new_page = BasketPage(browser, link)
     new_page.verify_basket_is_empty()
+
